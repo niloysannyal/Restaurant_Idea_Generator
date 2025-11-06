@@ -1,7 +1,12 @@
 # 🍽️ Restaurant Idea Generator
+
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.26-orange?style=for-the-badge&logo=streamlit)
-![LangChain](https://img.shields.io/badge/LangChain-v0.1-purple?style=for-the-badge)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.39-orange?style=for-the-badge&logo=streamlit)
+![LangChain](https://img.shields.io/badge/LangChain-v0.3-purple?style=for-the-badge)
+
+
+<img width="1910" height="1077" alt="Screenshot (203)" src="https://github.com/user-attachments/assets/bf095116-4e12-413e-9250-12ab1f5259bb" />
+
 
 ---
 
@@ -62,6 +67,8 @@ streamlit run main.py
 
 ## 🖼️ Screenshots
 
+<img width="1910" height="1077" alt="Screenshot (203)" src="https://github.com/user-attachments/assets/0cb08c15-174a-47f6-bea1-5cf84789d9c2" />
+
 The restaurant name and menu items are displayed in visually appealing cards and two-column layout with emojis.
 
 ---
@@ -102,11 +109,5 @@ Restaurant_Idea_Generator/
 **Niloy Sannyal**  
 - Email: [niloysannyal@gmail.com](mailto:niloysannyal@gmail.com)  
 - GitHub: [https://github.com/niloysannyal](https://github.com/niloysannyal)  
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
 
 ---
