@@ -1,11 +1,11 @@
 import os
 import getpass
-from secrate_key import GOOGLE_API_KEY
 from langchain.chains import LLMChain
 from langchain.chains import SequentialChain
 from langchain.prompts import PromptTemplate
+from dotenv import load_dotenv
+load_dotenv()
 
-os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 from langchain.chat_models import init_chat_model
 
@@ -19,7 +19,7 @@ def generate_restaurant_name_and_items(cuisine):
 
     prompt_template_name = PromptTemplate(
         input_variable=['cuisine'],
-        template="I want to open a restaurant for {cuisine} food. Suggest only one fency name for this."
+        template="I want to open a restaurant for {cuisine} food. Suggest only one fency name (only name) for this."
     )
 
     name_chain = LLMChain(llm=llm, prompt=prompt_template_name, output_key="restaurant_name")
